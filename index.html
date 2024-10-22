@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Produtos - Editável</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="editable-title" contenteditable="true">Bem-vindo à Nossa Loja</h1>
+        <p id="editable-subtitle" contenteditable="true">Os melhores produtos para você, edite esta descrição!</p>
+    </header>
+
+    <section id="products">
+        <div class="product">
+            <h2 id="product1-title" contenteditable="true">Produto 1</h2>
+            <p id="product1-description" contenteditable="true">Descrição do Produto 1. Edite para adicionar detalhes do seu produto.</p>
+            <p id="product1-price" contenteditable="true">R$ 99,99</p>
+        </div>
+
+        <div class="product">
+            <h2 id="product2-title" contenteditable="true">Produto 2</h2>
+            <p id="product2-description" contenteditable="true">Descrição do Produto 2. Personalize esta descrição com as informações do produto.</p>
+            <p id="product2-price" contenteditable="true">R$ 199,99</p>
+        </div>
+
+        <div class="product">
+            <h2 id="product3-title" contenteditable="true">Produto 3</h2>
+            <p id="product3-description" contenteditable="true">Descrição do Produto 3. Coloque as características aqui.</p>
+            <p id="product3-price" contenteditable="true">R$ 299,99</p>
+        </div>
+    </section>
+
+    <footer>
+        <p id="editable-footer" contenteditable="true">© 2024 Sua Loja. Todos os direitos reservados.</p>
+    </footer>
+
+    <button onclick="saveEdits()">Salvar Alterações</button>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
